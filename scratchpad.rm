@@ -1,0 +1,7 @@
+ let history = ctx.history;
+  const hisList = history.map( (hisObj, index) =>
+    actionInfo( hisObj, index)
+  );
+
+
+  
